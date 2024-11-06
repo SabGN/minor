@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Формы. Отправляем данные на сервер</title>
+</head>
+
+<body>
+    <h1>Отправка данных</h1>
+        <nav>
+            <ul>
+                <a href="index.html" class="active">Логово</a>
+                <a href="table.html">Табличка</a>
+                <a href="images.html">Изображения</a>
+                <a href="contact.html">Контакты</a>
+                <a href="pasport.html">Паспорт</a>
+                <a href="solution.html">Задачка</a>
+                <a href="otprav.html"><b>Отправка</b></a>
+                <a href="dop_sol.html">Доп. задача</a>
+                <a href="index.html#chart3"><img height="50px" src="vasa.jpg"></a>
+                <a href="http://www.hse.ru" target="_blank">Ссылка на чужеземцев</a>
+            </ul>
+        </nav>
+        <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+            <input type="hidden" name="q" value="search">
+            <label for="tovar">Название товара:</label>
+            <input type="text" id="tovar" name="tovar" value="Бокал"><br><br>
+
+            <label for="number">Номер заказа:</label>
+            <input type="number" id="number" name="number" value="12345"><br><br>
+
+
+            <label for="eighteen">Вам есть 18 лет?</label>
+            <input type="radio" id="age_yes" name="eighteen" value="yes">
+            <label for="age_yes">Да</label>
+
+            <input type="radio" id="age_no" name="eighteen" value="no">
+            <label for="age_no">Нет</label><br><br>
+            
+            <label for="drink">Что вы выпили с утра?</label>
+            <input type="checkbox" id="pivo" name="pivo" value="yes">
+            <label for="age_yes">Пиво</label>
+
+            <input type="checkbox" id="tea" name="tea" value="no">
+            <label for="age_no">Чай</label><br><br>
+
+
+            <label for="date">Дата:</label>
+            <input type="date" id="date" name="date" value="2024-01-01"><br><br>
+
+            <label for="passw">Пароль:</label>
+            <input type="password" id="passw" name="passw" value="1q2w3e4r!"><br><br>
+
+            <label for="nope">Пустое поле:</label>
+            <input type="hidden" id="nope" name="nope" value="">
+            
+            <input type="Submit" name="submit"  value="Отправить"><br><br>
+        </form>
+
+
+        <a href="#top" class="back-to-top">
+            <img src="image.png" alt="Наверх" height="20px" width="20px"/>
+        </a>
+</body>
+
+</html>
