@@ -27,7 +27,7 @@ function send() {
 
 
 
-let result;
+//let result;
 let check;
 
 const elementA = document.getElementById("a");
@@ -39,3 +39,7 @@ elementVerify.addEventListener('click', verify);
 
 const elementSend = document.getElementById("send");
 elementSend.addEventListener('click', send)
+
+
+
+

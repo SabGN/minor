@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="magaz.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul>
+                <a class='menu_link' href="index.html">Логово</a>
+                <a class='menu_link' href="images.html">Изображения</a>
+                <a class='menu_link' href="contact.html">Контакты</a>
+                <a href="magaz.html" class="active">Магазин</a>
+                <a class='menu_link' href="otprav.html">Отправка</a>
+                <a class='menu_link' href="index.html#chart3"><img height="50px" src="vasa.jpg"></a>
+                <a class='menu_link' href="http://www.hse.ru" target="_blank">Ссылка на чужеземцев</a>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="h1">Магазин NumCom</h1>
+    <div class="magaz">
+        <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+            <input type="hidden" name="q" value="search">
+            <div class="form_radio">
+                <div>
+                    <input type="radio" id="now" name="tovar" value="house" checked />
+                    <label for="house">Доставить до двери</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="after" name="tovar" value="punkt" />
+                    <label for="punkt">Забрать в пункте выдачи</label>
+                </div>
+            </div>
+
+            <div class="good">
+                <a><img src="num1.png" alt="" width="240"></a>
+                <h3><a class='good_name'>Цифра 1</a></h3>
+                <a class="good_text">Заплатить: 100 руб.</a>
+                <p class="button">Количество:
+                    <input class="w-25" type="number" id="num1" name="amount" value="9">
+                </p>
+            </div>
+            <div class="good">
+                <a><img src="num2.png" alt="" width="240"></a>
+                <h3><a class='good_name'>Цифра 2</a></h3>
+                <a class="good_text">Заплатить: 200 руб.</a>
+                <p class="button">Количество:
+                    <input class="w-25" type="number" id="num2" name="amount" value="9">
+                </p>
+            </div>
+            <div class="good">
+                <a><img src="num3.png" alt="" width="240"></a>
+                <h3><a class='good_name'>Цифра 3</a></h3>
+                <a class="good_text">Заплатить: 300 руб.</a>
+                <p class="button">Количество:
+                    <input class="w-25" type="number" id="num3" name="amount" value="9">
+                </p>
+            </div>
+            <div class="good">
+                <a><img src="num4.png" alt="" width="240"></a>
+                <h3><a class='good_name'>Цифра 4</a></h3>
+                <a class="good_text">Заплатить: 400 руб.</a>
+                <p class="button">Количество:
+                    <input class="w-25" type="number" id="num4" name="amount" value="9">
+                </p>
+            </div>
+            <div class="good">
+                <a><img src="num5.png" alt="" width="240"></a>
+                <h3><a class='good_name'>Цифра 5</a></h3>
+                <a class="good_text">Заплатить: 500 руб.</a>
+                <p class="button">Количество:
+                    <input class="w-25" type="number" id="num5" name="amount" value="9">
+                </p>
+            </div>
+            <div class="good">
+                <a><img src="num6.png" alt="" width="240"></a>
+                <h3><a class='good_name'>Цифра 6</a></h3>
+                <a class="good_text">Заплатить: 600 руб.</a>
+                <p class="button">Количество:
+                    <input class="w-25" type="number" id="num6" name="amount" value="9">
+                </p>
+            </div>
+            </div>
+            <input class="btn_btn-primary" type="Submit" value="Добавить в корзину">
+        </form>
+
+    <footer class="footer">
+        <p align="center" class="footr_text">Нуруллина Камила БФЗ-233</p>
+    </footer>
+
+    <a href="#top" class="back-to-top">
+        <img src="image.png" alt="Наверх" height="20px" width="20px"/>
+    </a>
+    <script src="contact.js"></script>
+</body>
+</html>
